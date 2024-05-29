@@ -37,6 +37,60 @@
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
+
+        cstm_1: ampersand_or_pipe {
+            compatible = "zmk,behavior-mod-morph";
+            label = "1 => & or |";
+            bindings = <&kp AMPS>, <&kp PIPE>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        cstm_2: left_paren_or_at {
+            compatible = "zmk,behavior-mod-morph";
+            label = "2 => ( or @";
+            bindings = <&kp LPAR>, <&kp AT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        cstm_3: left_curly_or_under {
+            compatible = "zmk,behavior-mod-morph";
+            label = "3 => { or _";
+            bindings = <&kp LEFT_BRACE>, <&kp UNDER>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        cstm_4: left_bracket_or_dollar {
+            compatible = "zmk,behavior-mod-morph";
+            label = "4 => [ or $";
+            bindings = <&kp LBKT>, <&kp DLLR>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        cstm_5: equal_or_percent {
+            compatible = "zmk,behavior-mod-morph";
+            label = "5 => = or %";
+            bindings = <&kp EQUAL>, <&kp PRCNT>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
+
+        cstm_6: minus_or_caret {
+            compatible = "zmk,behavior-mod-morph";
+            label = "6 => - or ^";
+            bindings = <&kp MINUS>, <&kp CARET>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_RSFT|MOD_LSFT)>;
+        };
     };
 
     macros {
