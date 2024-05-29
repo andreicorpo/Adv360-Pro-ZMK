@@ -4,6 +4,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&mt { flavor = "tap-preferred"; };
+
 / {
     behaviors {
         #include "macros.dtsi"
@@ -38,7 +40,7 @@
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
-        cstm_1: ampersand_or_pipe {
+        cstm_1: cstm_1 {
             compatible = "zmk,behavior-mod-morph";
             label = "1 => & or |";
             bindings = <&kp AMPS>, <&kp PIPE>;
@@ -47,7 +49,7 @@
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
-        cstm_2: left_paren_or_at {
+        cstm_2: cstm_2 {
             compatible = "zmk,behavior-mod-morph";
             label = "2 => ( or @";
             bindings = <&kp LPAR>, <&kp AT>;
@@ -56,36 +58,36 @@
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
-        cstm_3: left_curly_or_under {
+        cstm_3: cstm_3 {
             compatible = "zmk,behavior-mod-morph";
-            label = "3 => { or _";
+            label = "CSTM_3";
             bindings = <&kp LEFT_BRACE>, <&kp UNDER>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
-        cstm_4: left_bracket_or_dollar {
+        cstm_4: cstm_4 {
             compatible = "zmk,behavior-mod-morph";
-            label = "4 => [ or $";
+            label = "CSTM_4";
             bindings = <&kp LBKT>, <&kp DLLR>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
-        cstm_5: equal_or_percent {
+        cstm_5: cstm_5 {
             compatible = "zmk,behavior-mod-morph";
-            label = "5 => = or %";
+            label = "CSTM_5";
             bindings = <&kp EQUAL>, <&kp PRCNT>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
         };
 
-        cstm_6: minus_or_caret {
+        cstm_6: cstm_6 {
             compatible = "zmk,behavior-mod-morph";
-            label = "6 => - or ^";
+            label = "CSTM_6";
             bindings = <&kp MINUS>, <&kp CARET>;
 
             #binding-cells = <0>;
