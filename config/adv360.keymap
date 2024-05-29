@@ -47,11 +47,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL                     &kp N1   &kp N2            &kp N3    &kp N4     &kp N5  &mo 3                                                                                                                               &mo 3  &kp N6  &kp N7          &kp N8     &kp N9             &kp N0                    &kp MINUS
-&kp TAB                       &kp Q    &kp W             &kp E     &kp R      &kp T   &none                                                                                                                               &none  &kp Y   &kp U           &kp I      &kp O              &kp P                     &kp BSLH
-&mt LCTRL ESC                 &kp A    &kp S             &lt 1 D   &kp F      &kp G   &none                &mt LSHIFT SPACE  &mt LEFT_ALT LA(BACKSPACE)    &mt RSHFT ENTER             &mt LCTRL ESCAPE                   &none  &kp H   &kp J           &kp K      &kp L              &kp SEMI                  &kp SQT
-&mt LA(LEFT_SHIFT) SEMICOLON  &kp Z    &kp X             &kp C     &kp V      &kp B                                          &kp HOME                      &kp PG_UP                                                             &kp N   &kp M           &kp COMMA  &kp DOT            &mt LA(LG(LSHIFT)) SLASH  &kp RSHFT
-&mo 2                         &kp F11  &kp LEFT_BRACKET  &kp LEFT  &kp RIGHT                 &mt LGUI TAB  &mt LCTRL DELETE  &kp LA(LC(LEFT_SHIFT))        &kp LA(LC(LG(LEFT_SHIFT)))  &mt RALT LG(BACKSPACE)  &cmd_bksp                 &kp DOWN_ARROW  &kp UP     &kp RIGHT_BRACKET  &kp F12                   &mo 2
+&kp EQUAL                     &kp N1   &kp N2            &kp N3    &kp N4     &kp N5  &mo 3                                                                                                                                       &mo 3  &kp N6  &kp N7          &kp N8     &kp N9             &kp N0                    &kp MINUS
+&kp TAB                       &kp Q    &kp W             &kp E     &kp R      &kp T   &none                                                                                                                                       &none  &kp Y   &kp U           &kp I      &kp O              &kp P                     &kp BSLH
+&mt LCTRL ESC                 &kp A    &kp S             &lt 1 D   &kp F      &kp G   &none                    &mt LCMD TAB                &mt LCTRL DELETE          &mt LG(BACKSPACE) ENTER     &mt LSHIFT ENTER                 &none  &kp H   &kp J           &kp K      &kp L              &kp SEMI                  &kp SQT
+&mt LA(LEFT_SHIFT) SEMICOLON  &kp Z    &kp X             &kp C     &kp V      &kp B                                                        &kp HOME                  &kp PG_UP                                                           &kp N   &kp M           &kp COMMA  &kp DOT            &mt LA(LG(LSHIFT)) SLASH  &kp RSHFT
+&mo 2                         &kp F11  &kp LEFT_BRACKET  &kp LEFT  &kp RIGHT                 &mt LSHIFT SPACE  &mt LEFT_ALT LA(BACKSPACE)  &kp LA(LC(LEFT_SHIFT))    &kp LA(LC(LG(LEFT_SHIFT)))  &cmd_bksp         &mt LCTRL ESC                 &kp DOWN_ARROW  &kp UP     &kp RIGHT_BRACKET  &kp F12                   &mo 2
             >;
         };
 
