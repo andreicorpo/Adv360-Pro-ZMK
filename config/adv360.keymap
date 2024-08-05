@@ -88,7 +88,7 @@
         cstm_6: cstm_6 {
             compatible = "zmk,behavior-mod-morph";
             label = "CSTM_6";
-            bindings = <&kp MINUS>, <&kp CARET>;
+            bindings = <&kp MINUS>, <&kp PLUS>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
@@ -124,7 +124,7 @@
         cstm_0: cstm_0 {
             compatible = "zmk,behavior-mod-morph";
             label = "CSTM_0";
-            bindings = <&kp PLUS>, <&kp RPAR>;
+            bindings = <&kp PLUS>, <&kp CARET>;
 
             #binding-cells = <0>;
             mods = <(MOD_RSFT|MOD_LSFT)>;
